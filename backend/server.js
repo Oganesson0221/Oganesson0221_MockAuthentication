@@ -6,7 +6,7 @@ const auth = require("./routes/Auth");
 const favicon = require("serve-favicon");
 const path = require("path"); // Ensure path is required
 
-// Load environment variables
+// Load environment variables ///
 dotenv.config();
 
 const app = express();
