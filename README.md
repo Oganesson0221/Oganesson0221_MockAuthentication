@@ -3,7 +3,7 @@
 
 # 🚀 **How to Run the Project Locally**
 
-Welcome to this awesome project! Follow these simple steps to get the website up and running on your local machine. 😎
+Welcome to this project! Follow these simple steps to get the website up and running on your local machine!
 
 ---
 
