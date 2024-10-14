@@ -22,9 +22,7 @@ export const loadUser = () => async (dispatch) => {
   }
 
   try {
-    const res = await axios.get(
-      "https://oganesson0221mockauthentication.onrender.com/users/auth"
-    );
+    const res = await axios.get("http://localhost:5050/users/auth");
 
     dispatch({
       type: USER_LOADED,
@@ -52,7 +50,7 @@ export const register =
 
     try {
       const res = await axios.post(
-        "https://oganesson0221mockauthentication.onrender.com/users/",
+        "http://localhost:5050/users/",
         body,
         config
       );
@@ -103,7 +101,7 @@ export const login = (name, password) => async (dispatch) => {
 
   try {
     const res = await axios.post(
-      "https://oganesson0221mockauthentication.onrender.com/users/auth",
+      "http://localhost:5050/users/auth",
       body,
       config
     );
@@ -141,7 +139,7 @@ export const changePassword =
 
     try {
       const res = await axios.post(
-        "https://oganesson0221mockauthentication.onrender.com/users/changepassword",
+        "http://localhost:5050/users/changepassword",
         body,
         config
       );
