@@ -1,0 +1,148 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #f9f9f9; /* Light background to contrast the card */
+  min-height: 100vh; /* Full height view */
+  overflow-y: auto; /* Enable vertical scrolling */
+  max-width: 1200px; /* Limit the maximum width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+.profile-card {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  max-width: 600px; /* Increased width for better layout */
+  width: 100%;
+  transition: transform 0.2s;
+}
+
+.section {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 800px; /* Adjusted width for sections */
+  margin: 0 auto; /* Center sections */
+}
+
+.profile-card:hover {
+  transform: scale(1.02);
+}
+
+.welcome-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  border: 3px solid #eee; /* Add a thin border around the image */
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for the image */
+}
+
+.dashboard-features h2 {
+  font-size: 1.4rem;
+  color: #555;
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.section {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.section p,
+.achievements-list {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+.achievements-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+
+  .profile-card {
+    padding: 1.5rem;
+  }
+
+  .welcome-text {
+    font-size: 1.5rem;
+  }
+
+  .profile-image img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .dashboard-features h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.social-links-section {
+  margin-top: 20px;
+}
+
+.social-links-section h3 {
+  margin-bottom: 10px;
+}
+
+.social-links-section a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+}
+
+.social-links-section a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+.social-links-section {
+  margin-top: 20px;
+  text-align: center; /* Center the content */
+}
+
+.social-links-section h3 {
+  margin-bottom: 10px;
+}
+
+.social-links-section a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  display: inline-block; /* Ensures the links are treated like buttons */
+  margin: 5px; /* Add space between the links */
+}
+
+.social-links-section a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
