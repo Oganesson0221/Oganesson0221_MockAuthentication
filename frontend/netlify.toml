@@ -1,0 +1,7 @@
+[build]
+  base = "frontend" # The base directory for the build command
+  publish = "frontend/build" # The publish directory for the static site
+  command = "npm install && npm run build" # Build command
+
+[functions]
+  directory = "netlify/functions" # Directory for your Netlify functions
