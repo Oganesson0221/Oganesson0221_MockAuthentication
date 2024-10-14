@@ -2,20 +2,14 @@
 
 2. Before you start making any changes or just viewing, always fetch original to get the latest updated version from the team!!!
 
-3. Go to the cloned repo in your laptop, it should be named as Github\EatWellthy
+3. use your Laptop Powershell ( for windows )
 
-4. use your Laptop Powershell ( for windows )
+4. Type in this line: cd WhereYouStoreTheProject\NameOfRepo\backend e.g. cd "D:\Onedrive\Documents\GitHub\EatWellthy\backend"
+   node --watch server
 
-5. Type in this line: cd WhereYouStoreTheProject\EatWellthy\backend         e.g. cd "D:\Onedrive\Documents\GitHub\EatWellthy\backend"
-                      node --watch server
+5. Open another Powershell window and
+   Type in this line: cd WhereYouStoreTheProject\NameOfRepo\frontend e.g. cd "D:\Onedrive\Documents\GitHub\EatWellthy\client"
+   $env:NODE_OPTIONS="--openssl-legacy-provider" Only if you node.js version is >= V17
+   npm run start
 
-6. Open another Powershell window and 
-   Type in this line: cd WhereYouStoreTheProject\EatWellthy\client          e.g. cd "D:\Onedrive\Documents\GitHub\EatWellthy\client"
-                      $env:NODE_OPTIONS="--openssl-legacy-provider"         Only if you node.js version is >= V17
-                      npm run start
-
-7. The web app window should pop out from your default browser
-
-8. After making changes, you can commit change and push to repo using github desktop app
-
-9. Or you can delete the changes you make as long as you donot commit change, by right click the file you want to undo the changes
+6. The web app window should pop out from your default browser
